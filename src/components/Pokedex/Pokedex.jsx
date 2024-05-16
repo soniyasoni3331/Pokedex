@@ -1,8 +1,7 @@
 //import CSS 
 import PokemonList from '../PokemonList/PokemonList';
-import Search from '../Search/Search';
 import './Pokedex.css';
-import React, { useState } from 'react'
+import React from 'react'
 
 function Pokedex() {
 
