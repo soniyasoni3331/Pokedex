@@ -6,14 +6,12 @@ import React, { useState } from 'react'
 
 function Pokedex() {
 
-  const [searchTerm, setSearchTerm] = useState('');
   return (
     <>
     <div className='pokedexWrapper'>
     <h1>POKEDEX</h1>
-    <Search  updateSearchTerm={setSearchTerm}/>
-    {searchTerm? <div>{searchTerm}</div>:<PokemonList/>}
-    </div>
+    <PokemonList/>
+     </div>
     </>
     )
 }
